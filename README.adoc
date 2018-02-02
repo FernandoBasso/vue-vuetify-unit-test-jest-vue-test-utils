@@ -1,0 +1,17 @@
+= Vue/Vuetify Unit Tests With Jest and Vue-Test-Utils
+
+An example on how to configure Vue/Vuetify to be unit-teste with `jest` and `vue-test-utils`.
+
+Read more about it http://fernandobasso.github.io/[on my blog^].
+
+== Running
+
+Clone de project and `cd` into the directory. Then
+
+// vue-vuetify-unit-test-jest-vue-test-utils
+
+----
+npm install
+npm run unit
+----
+

@@ -1,0 +1,48 @@
+{
+  "name": "vuetify-unit-tests-jest-vue-test-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit": "jest tests/*.spec.js --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vuetify": "^1.0.0-beta.5"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.10",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^22.1.4",
+    "jest-vue": "^0.8.2",
+    "regenerator-runtime": "^0.11.1",
+    "vue-jest": "^2.0.0",
+    "vue-loader": "^14.0.2",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "mapCoverage": true,
+    "setupTestFrameworkScriptFile": "<rootDir>/tests/jest-setup.js"
+  }
+}
