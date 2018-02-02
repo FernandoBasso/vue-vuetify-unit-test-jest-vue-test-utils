@@ -6,11 +6,11 @@ Read more about it http://fernandobasso.github.io/[on my blog^].
 
 == Running
 
-Clone de project and `cd` into the directory. Then
-
-// vue-vuetify-unit-test-jest-vue-test-utils
+Clone the project, `cd` into the directory, install the dependencies and run the unit tests:
 
 ----
+git clone git@gitlab.com:fernandobasso/vue-vuetify-unit-test-jest-vue-test-utils.git vuetify-unit-test
+cd !$
 npm install
 npm run unit
 ----
